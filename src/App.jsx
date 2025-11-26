@@ -16,7 +16,6 @@ function App() {
 
   return (
     <Suspense fallback={<div>Cargando...</div>}>
-
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/gallery" element={<Gallery />} />
